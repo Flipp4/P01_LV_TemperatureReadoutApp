@@ -11,9 +11,15 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="MainApp.vi" Type="VI" URL="../MainApp.vi"/>
+		<Item Name="MainApp_COMNotifier_t.ctl" Type="VI" URL="../Typedefs/MainApp_COMNotifier_t.ctl"/>
+		<Item Name="MainApp_DataQueue_t.ctl" Type="VI" URL="../Typedefs/MainApp_DataQueue_t.ctl"/>
 		<Item Name="States_t.ctl" Type="VI" URL="../Typedefs/States_t.ctl"/>
+		<Item Name="Sub_CheckFrameIntegrity.vi" Type="VI" URL="../Sub_CheckFrameIntegrity.vi"/>
+		<Item Name="Sub_NumberToColorScale.vi" Type="VI" URL="../Sub_NumberToColorScale.vi"/>
+		<Item Name="Sub_ParseStringIntoDoubleArray.vi" Type="VI" URL="../Sub_ParseStringIntoDoubleArray.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 			</Item>
 		</Item>
