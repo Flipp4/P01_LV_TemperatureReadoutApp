@@ -14,6 +14,7 @@
 		<Item Name="MainApp_COMNotifier_t.ctl" Type="VI" URL="../Typedefs/MainApp_COMNotifier_t.ctl"/>
 		<Item Name="MainApp_DataQueue_t.ctl" Type="VI" URL="../Typedefs/MainApp_DataQueue_t.ctl"/>
 		<Item Name="States_t.ctl" Type="VI" URL="../Typedefs/States_t.ctl"/>
+		<Item Name="Sub_CalculateNormalizedLinearFcnOutput.vi" Type="VI" URL="../Sub_CalculateNormalizedLinearFcnOutput.vi"/>
 		<Item Name="Sub_CheckFrameIntegrity.vi" Type="VI" URL="../Sub_CheckFrameIntegrity.vi"/>
 		<Item Name="Sub_NumberToColorScale.vi" Type="VI" URL="../Sub_NumberToColorScale.vi"/>
 		<Item Name="Sub_ParseStringIntoDoubleArray.vi" Type="VI" URL="../Sub_ParseStringIntoDoubleArray.vi"/>
