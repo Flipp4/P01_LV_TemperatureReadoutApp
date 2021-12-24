@@ -16,11 +16,14 @@
 		<Item Name="States_t.ctl" Type="VI" URL="../Typedefs/States_t.ctl"/>
 		<Item Name="Sub_CalculateNormalizedLinearFcnOutput.vi" Type="VI" URL="../Sub_CalculateNormalizedLinearFcnOutput.vi"/>
 		<Item Name="Sub_CheckFrameIntegrity.vi" Type="VI" URL="../Sub_CheckFrameIntegrity.vi"/>
-		<Item Name="Sub_NumberToColorScale.vi" Type="VI" URL="../Sub_NumberToColorScale.vi"/>
+		<Item Name="Sub_ConvertTemperatureMatrixIntoColorMatrix.vi" Type="VI" URL="../Sub_ConvertTemperatureMatrixIntoColorMatrix.vi"/>
+		<Item Name="Sub_LinearEquationCoeffCalc.vi" Type="VI" URL="../Sub_LinearEquationCoeffCalc.vi"/>
 		<Item Name="Sub_ParseStringIntoDoubleArray.vi" Type="VI" URL="../Sub_ParseStringIntoDoubleArray.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 			</Item>
 		</Item>
