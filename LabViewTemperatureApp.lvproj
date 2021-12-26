@@ -14,9 +14,12 @@
 		<Item Name="MainApp_COMNotifier_t.ctl" Type="VI" URL="../Typedefs/MainApp_COMNotifier_t.ctl"/>
 		<Item Name="MainApp_DataQueue_t.ctl" Type="VI" URL="../Typedefs/MainApp_DataQueue_t.ctl"/>
 		<Item Name="States_t.ctl" Type="VI" URL="../Typedefs/States_t.ctl"/>
+		<Item Name="Sub_Calculate2DTemperatureSpread.vi" Type="VI" URL="../Sub_Calculate2DTemperatureSpread.vi"/>
 		<Item Name="Sub_CalculateNormalizedLinearFcnOutput.vi" Type="VI" URL="../Sub_CalculateNormalizedLinearFcnOutput.vi"/>
+		<Item Name="Sub_CalculateScaledDistance.vi" Type="VI" URL="../Sub_CalculateScaledDistance.vi"/>
 		<Item Name="Sub_CheckFrameIntegrity.vi" Type="VI" URL="../Sub_CheckFrameIntegrity.vi"/>
 		<Item Name="Sub_ConvertTemperatureMatrixIntoColorMatrix.vi" Type="VI" URL="../Sub_ConvertTemperatureMatrixIntoColorMatrix.vi"/>
+		<Item Name="Sub_GaussFunctionCalc.vi" Type="VI" URL="../Sub_GaussFunctionCalc.vi"/>
 		<Item Name="Sub_LinearEquationCoeffCalc.vi" Type="VI" URL="../Sub_LinearEquationCoeffCalc.vi"/>
 		<Item Name="Sub_ParseStringIntoDoubleArray.vi" Type="VI" URL="../Sub_ParseStringIntoDoubleArray.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
