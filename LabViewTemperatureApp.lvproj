@@ -13,6 +13,7 @@
 		<Item Name="MainApp.vi" Type="VI" URL="../MainApp.vi"/>
 		<Item Name="MainApp_COMNotifier_t.ctl" Type="VI" URL="../Typedefs/MainApp_COMNotifier_t.ctl"/>
 		<Item Name="MainApp_DataQueue_t.ctl" Type="VI" URL="../Typedefs/MainApp_DataQueue_t.ctl"/>
+		<Item Name="MainApp_SensorData_t.ctl" Type="VI" URL="../Typedefs/MainApp_SensorData_t.ctl"/>
 		<Item Name="States_t.ctl" Type="VI" URL="../Typedefs/States_t.ctl"/>
 		<Item Name="Sub_Calculate2DTemperatureSpread.vi" Type="VI" URL="../Sub_Calculate2DTemperatureSpread.vi"/>
 		<Item Name="Sub_Calculate2DWeights.vi" Type="VI" URL="../Sub_Calculate2DWeights.vi"/>
