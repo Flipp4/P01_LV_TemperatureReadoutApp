@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="21008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -16,8 +17,10 @@
 		<Item Name="DisplayIndicator_Transparent.ctl" Type="VI" URL="../Typedefs/DisplayIndicator_Transparent.ctl"/>
 		<Item Name="DisplayIndicatorSquare2_Transparent.ctl" Type="VI" URL="../Typedefs/DisplayIndicatorSquare2_Transparent.ctl"/>
 		<Item Name="DisplayIndicatorSquare3_Transparent.ctl" Type="VI" URL="../Typedefs/DisplayIndicatorSquare3_Transparent.ctl"/>
-		<Item Name="DisplayIndicatorSquare_Transparent.ctl" Type="VI" URL="../Typedefs/DisplayIndicatorSquare_Transparent.ctl"/>
+		<Item Name="DisplayIndicatorSquare4_Transparent.ctl" Type="VI" URL="../Typedefs/DisplayIndicatorSquare4_Transparent.ctl"/>
+		<Item Name="DisplayIndicatorSquare5_Transparent.ctl" Type="VI" URL="../Typedefs/DisplayIndicatorSquare5_Transparent.ctl"/>
 		<Item Name="MainApp.vi" Type="VI" URL="../MainApp.vi"/>
+		<Item Name="DisplayIndicatorSquare_Transparent.ctl" Type="VI" URL="../Typedefs/DisplayIndicatorSquare_Transparent.ctl"/>
 		<Item Name="MainApp_COMNotifier_t.ctl" Type="VI" URL="../Typedefs/MainApp_COMNotifier_t.ctl"/>
 		<Item Name="MainApp_DataQueue_t.ctl" Type="VI" URL="../Typedefs/MainApp_DataQueue_t.ctl"/>
 		<Item Name="MainApp_SensorData_t.ctl" Type="VI" URL="../Typedefs/MainApp_SensorData_t.ctl"/>
@@ -57,7 +60,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{83C2B8BE-C1CC-442D-8CEE-CA31B88D8633}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Temperatura w lodówce.exe</Property>
 				<Property Name="Destination[0].libraryName" Type="Str">Temperatura w lodówce.exe.lvlib</Property>
@@ -69,7 +72,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Appicon.ico</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{61563091-0395-4158-9A9C-DF1921AEF51F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{83F5E211-464C-42DD-AD37-C1C226ED96A9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DisplayIndicatorSquare2_Transparent.ctl</Property>
@@ -130,6 +133,14 @@
 				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[22].itemID" Type="Ref">/My Computer/Appicon.ico</Property>
 				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/DisplayIndicatorSquare4_Transparent.ctl</Property>
+				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[23].type" Type="Str">VI</Property>
+				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/DisplayIndicatorSquare5_Transparent.ctl</Property>
+				<Property Name="Source[24].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[24].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Cart_WhiteBackgorund.ctl</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
@@ -140,6 +151,12 @@
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/My Computer/MainApp.vi</Property>
+				<Property Name="Source[5].newName" Type="Str">Temperatury w lodówce.vi</Property>
+				<Property Name="Source[5].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[1].type" Type="Str">Show Abort button</Property>
+				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[5].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
@@ -158,7 +175,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/DisplayIndicatorSquare3_Transparent.ctl</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">23</Property>
+				<Property Name="SourceCount" Type="Int">25</Property>
 				<Property Name="TgtF_companyName" Type="Str">Notyet</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">My Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">My Application</Property>
