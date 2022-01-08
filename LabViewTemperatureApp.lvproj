@@ -60,7 +60,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{83C2B8BE-C1CC-442D-8CEE-CA31B88D8633}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Temperatura w lodówce.exe</Property>
 				<Property Name="Destination[0].libraryName" Type="Str">Temperatura w lodówce.exe.lvlib</Property>
@@ -72,7 +72,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Appicon.ico</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{83F5E211-464C-42DD-AD37-C1C226ED96A9}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DD0E1906-3C3A-4C40-AAB8-9FB2ABA8FA5B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/DisplayIndicatorSquare2_Transparent.ctl</Property>
@@ -156,7 +156,17 @@
 				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[5].properties[1].type" Type="Str">Show Abort button</Property>
 				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[5].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[5].properties[2].type" Type="Str">Show toolbar</Property>
+				<Property Name="Source[5].properties[2].value" Type="Bool">true</Property>
+				<Property Name="Source[5].properties[3].type" Type="Str">Show menu bar</Property>
+				<Property Name="Source[5].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[4].type" Type="Str">Window has title bar</Property>
+				<Property Name="Source[5].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[5].properties[5].type" Type="Str">Show vertical scroll bar</Property>
+				<Property Name="Source[5].properties[5].value" Type="Bool">true</Property>
+				<Property Name="Source[5].properties[6].type" Type="Str">Window run-time position</Property>
+				<Property Name="Source[5].properties[6].value" Type="Str">Maximized</Property>
+				<Property Name="Source[5].propertiesCount" Type="Int">7</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
